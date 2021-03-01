@@ -1,0 +1,81 @@
+﻿  program.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2468,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2479): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2479): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2459): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2459): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Users\Cameron\Desktop\seinsoul val\ProjectHex\main.h(1033): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\Cameron\Desktop\seinsoul val\ProjectHex\main.h(1033): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  Generating code
+  33 of 2095 functions ( 1.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    18 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+cryptlib.lib(cryptlib.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(cryptlib.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(cpu.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(cpu.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(integer.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(integer.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(algparam.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(algparam.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(asn.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(asn.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(base64.obj) : warning LNK4099: PDB '' was not found with 'cryptlib.lib(base64.obj)' or at ''; linking object as if no debug info
+cryptlib.lib(basecode.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(basecode.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(dll.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(dll.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(ec2n.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(ec2n.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(ecp.obj) : warning LNK4099: PDB '' was not found with 'cryptlib.lib(ecp.obj)' or at ''; linking object as if no debug info
+cryptlib.lib(filters.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(filters.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(fips140.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(fips140.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(gf2n.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(gf2n.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(gf2n_simd.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(gf2n_simd.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(gfpcrypt.obj) : warning LNK4099: PDB '' was not found with 'cryptlib.lib(gfpcrypt.obj)' or at ''; linking object as if no debug info
+cryptlib.lib(hex.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(hex.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(hmac.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(hmac.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(hrtimer.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(hrtimer.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(iterhash.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(iterhash.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(misc.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(misc.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(modes.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(modes.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(mqueue.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(mqueue.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(nbtheory.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(nbtheory.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(osrng.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(osrng.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(pch.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(pch.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(pubkey.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(pubkey.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(queue.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(queue.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(randpool.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(randpool.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(rdtables.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(rdtables.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(rijndael.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(rijndael.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(rijndael_simd.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(rijndael_simd.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(rng.obj) : warning LNK4099: PDB '' was not found with 'cryptlib.lib(rng.obj)' or at ''; linking object as if no debug info
+cryptlib.lib(sha.obj) : warning LNK4099: PDB '' was not found with 'cryptlib.lib(sha.obj)' or at ''; linking object as if no debug info
+cryptlib.lib(sha_simd.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(sha_simd.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+cryptlib.lib(sse_simd.obj) : warning LNK4099: PDB 'cryptlib.pdb' was not found with 'cryptlib.lib(sse_simd.obj)' or at 'C:\Users\Cameron\Desktop\seinsoul val\x64\Release\cryptlib.pdb'; linking object as if no debug info
+  ProjectHex.vcxproj -> C:\Users\Cameron\Desktop\seinsoul val\x64\Release\ProjectHex.exe
